@@ -1,47 +1,20 @@
-# JustPearlyThings Audience Retention Assessment
+# JustPearlyThings Tools
 
-Prepared for Pearl Davis / JustPearlyThings.
+Static browser tools prepared for Pearl Davis / JustPearlyThings.
 
-## What this is
+Live site:
 
-This is a standalone browser tool for scoring audience retention health across Pearl's videos and clips.
+https://justpearlythings-retention-assessme.vercel.app
 
-It lets the team enter either:
+## Tools
 
-- YouTube Studio metrics: CTR, APV, AVD, intro retention, retention spike depth, new-viewer percentage.
-- Public/proxy metrics: views, 48-hour views, likes, comments, subscribers gained.
-- Structural scores: hook strength, time-to-conflict, status reversal, payoff density, dead-air control.
+- `index.html` - launcher page.
+- `retention-assessment.html` - audience retention analytics assessment tool.
+- `risk-assessor.html` - clip and statement risk assessor.
 
-The tool then produces:
+## Notes
 
-- An overall retention score.
-- A PPPS structural score.
-- A retention curve estimate.
-- A diagnosis for the video.
-- The next edit or next metric to pull.
+These are static HTML tools. No server, account login, or database is required.
 
-## How to open it
-
-Open this file in Chrome, Safari, Edge, or Firefox:
-
-`JustPearlyThings-Audience-Retention-Assessment-v1.html`
-
-No install is required. It works offline.
-
-## Privacy note
-
-The tool stores entries only in the browser's local storage on the computer where it is opened. It does not upload data anywhere.
-
-If Pearl's team enters private YouTube Studio metrics, those numbers stay local unless they choose to export a CSV.
-
-## Best first use
-
-Score 20 recent uploads:
-
-1. 5 Pregame panel episodes.
-2. 5 Pearl Daily uploads.
-3. 5 Sit-Down clips or full episodes.
-4. 5 Shorts or street/man-on-street clips.
-
-After 20 rows, compare the predicted score against actual 30-day performance and recalibrate the weights.
+Any YouTube Studio metrics entered into the retention tool are stored only in the user's browser local storage unless the user exports a CSV.
 
